@@ -3,7 +3,7 @@ import 'package:meu_app_habitos/views/home_view.dart';
 
 void main() => runApp(const HabitTrackerApp());
 
-class HabitTrackerApp extends StatelessWidget{
+class HabitTrackerApp extends StatelessWidget {
   const HabitTrackerApp({super.key});
 
   @override
@@ -11,7 +11,6 @@ class HabitTrackerApp extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "HabitFlow",
-
       theme: ThemeData(
         useMaterial3: true,
         scaffoldBackgroundColor: const Color(0xFFFFF7FC),
@@ -21,4 +20,3 @@ class HabitTrackerApp extends StatelessWidget{
     );
   }
 }
-
